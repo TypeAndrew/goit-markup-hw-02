@@ -1,0 +1,181 @@
+
+.topside {
+
+    
+        width: 1600px;
+        height: 80px;
+        left: 0px;
+        top: 0px;
+        
+    
+        background: #FFFFFF;
+}
+
+.logo {
+    /* WebStudio */
+    
+   
+   
+
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 31px;
+    /* identical to box height */
+
+    letter-spacing: 0.03em;
+
+    color: #212121;
+   
+}
+
+.topline {
+    
+    position: absolute;
+    width: 1600px;
+    height: 80px;
+    left: 0px;
+    top: 0px;
+    display: inline;
+
+    background: #FFFFFF;
+}
+
+.bluewords {
+    color: #2196F3;
+}
+
+.head_nav {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.02em;
+    display: inline-block;
+    color: #212121;
+}
+
+
+.menu-nav {
+    
+  
+    list-style-type: none;
+}
+
+.menu-nav li{
+
+   display: inline;
+}
+
+.menu-nav:first-child {
+
+    color: #2196F3;
+}
+
+
+.a {
+    
+    text-decoration: none;
+    color: #212121;
+
+}
+
+.main {
+
+        position: absolute;
+        width: 1600px;
+        height: 600px;
+        left: 0px;
+        top: 80px;
+    
+        background: #2F303A;
+        
+}
+
+
+
+.main-top {
+        
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 900;
+        font-size: 44px;
+        line-height: 60px;
+        /* or 136% */
+    
+        text-align: center;
+        letter-spacing: 0.06em;
+        text-transform: uppercase;
+        margin: 200px 452px 280px 452px;
+    
+        color: #FFFFFF
+}
+
+.button {
+        position: absolute;
+        width: 200px;
+        height: 50px;
+        left: 700px;
+        top: 430px;
+    
+        background: #2196F3;
+        box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+        border-radius: 4px;
+
+        font-family: 'Roboto';
+            font-style: normal;
+            font-weight: 700;
+            font-size: 16px;
+            line-height: 30px;
+            /* identical to box height, or 188% */
+        
+          
+            align-items: center;
+            text-align: center;
+            letter-spacing: 0.06em;
+        
+            color: #FFFFFF;
+}
+
+.main-benefits {
+
+   margin-bottom: ;
+    /*margin: 774px 215px 215px 1170px;*/
+}
+
+.main-benefits-nav li {
+
+    display: inline;
+  
+}
+.h2 {
+
+   
+}
+
+.main-our-work {
+
+    margin-top: 94px;
+    position: absolute;
+    width: 1170px;
+    height: 386px;
+    
+    top: 969px;
+    background: #E5E5E5;
+}
+
+.main-our-team {
+
+    margin-top: 94px;
+}
+
+.footer1 {
+    
+    margin-top: 2097px;
+    
+    
+
+    background: #2F303A;
+}
