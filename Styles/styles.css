@@ -99,18 +99,8 @@
 
     margin-left: 50px;
 }
-.menu-nav:first-child {
-
-    color: #2196F3;
-}
 
 
-.a {
-    
-    text-decoration: none;
-    color: #212121;
-
-}
 
 .main {
 
@@ -245,8 +235,23 @@
     height: 252px;
     left: 0px;
     top: 2097px;
-
     background: #2F303A;
+    
+}
+.item-footer {
+
+    
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    /* or 171% */
+    
+    letter-spacing: 0.03em;
+    text-decoration: none;
+    
+    
 }
 
 .item {
@@ -328,4 +333,9 @@
     
     margin-left: 38%;
     
+}
+
+.st-footer {
+
+    color: rgba(255, 255, 255, 0.6);
 }
