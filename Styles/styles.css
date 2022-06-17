@@ -16,7 +16,7 @@
 
 .topline {
   padding-left: 215px;  
-  margin-bottom: 100px; 
+  margin-bottom: 0; 
   background: #FFFFFF;
 }
 
@@ -43,6 +43,14 @@
     
 }
 
+.menu-main-nav {
+    
+    
+    display: inline-block;
+    list-style-type: none;
+    display: flex;
+}
+
 .topline .menu-nav {
 
     margin-left: 93px;
@@ -64,9 +72,11 @@
 
 .menu-nav-project {
 
-    display: inline-block;
+    padding-left: 0;
     list-style-type: none;
     margin-left: 215px;
+    margin-right: 215px;
+    display: inline-flexbox;
 }
 .menu-nav-last {
 
@@ -77,11 +87,17 @@
 .item-nav {
     display: inline;
     list-style-type: none;
+    margin-left: 50px;
 }
 
 .item-nav, a:hover {
     text-decoration: underline;
     color: #2196F3;
+}
+
+.menu-nav .menu-nav-address> .item-nav {
+
+    margin-left: 50px;
 }
 .menu-nav:first-child {
 
@@ -98,14 +114,10 @@
 
 .main {
 
-    
-    
-    height: 1600px;
+    height: 1700px;
     left: 0px;
     top: 80px;
     
-    
-        
 }
 
 .tittle-big{
@@ -198,7 +210,7 @@
 
     display: inline-block;
     list-style-type: none;
-    margin-bottom: 94;
+    margin-bottom: 94px;
     padding-left: 215px;
 }
 
@@ -208,9 +220,9 @@
 
 .main-our-work {
 
-    margin-bottom: 94;
     padding-left: 215px;
     padding-right: 215px;
+    margin-bottom: 94px;
     top: 969px;
     background: #E5E5E5;
 }
@@ -218,13 +230,12 @@
 .main-our-team {
     padding-left: 215px;
     padding-right: 215px;
-    margin-bottom: 114px;
+    margin-bottom: 214px;
     align-items: center;
 }
 
 .main-our-projects {
-    margin-left: 215px;
-    margin-right: 215px;
+   
 }
 
 .footer {
@@ -247,11 +258,31 @@
 
 .item-project {
     
-    margin-left: 30px;
+    margin-left: 25px;
+    margin-top: 30px;
     display: inline-block;
     list-style-type: none;
+    width: 370px; 
+    height: 294px;
+    
+
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 36px;
+    /* identical to box height, or 200% */
+    
+    letter-spacing: 0.06em;
+    
+    color: #212121;
 }
 
+.item-project {
+    
+  font-weight: 400;  
+    
+}
 .item-benefits {
 
     width: 270px;
@@ -261,7 +292,7 @@
     display: inline-block;
     list-style-type: none;
     border: 30px;
-    
+    margin-left: 30px;
 }
 
 .item-work {
@@ -272,6 +303,7 @@
     top: 1061px;
     display: inline-block;
     list-style-type: none;
+    margin-left: 30px;
 
 }
 
