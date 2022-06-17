@@ -43,6 +43,12 @@
     
 }
 
+.topline .menu-nav {
+
+    margin-left: 93px;
+
+}
+
 .menu-nav-address {
 
     display: inline-block;
@@ -73,7 +79,10 @@
     list-style-type: none;
 }
 
-
+.item-nav, a:hover {
+    text-decoration: underline;
+    color: #2196F3;
+}
 .menu-nav:first-child {
 
     color: #2196F3;
@@ -101,16 +110,18 @@
 
 .tittle-big{
     padding-top: 200px;
-    align-items: center;
-    align-content: center;
+    padding-left: 215px;
+    padding-right: 215px;
+    text-align: center;
     
 }
 
 .tittle-small {
     
-    padding-left: 50%;
-   
-
+    
+    padding-left: 215px;
+    padding-right: 215px;
+    text-align: center;
 }
 
 .main-top {
@@ -199,7 +210,7 @@
 
     margin-bottom: 94;
     padding-left: 215px;
-    
+    padding-right: 215px;
     top: 969px;
     background: #E5E5E5;
 }
