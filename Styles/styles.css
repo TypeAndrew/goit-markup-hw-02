@@ -1,22 +1,6 @@
 
-.topside {
-
-    
-        width: 1600px;
-        height: 80px;
-        left: 0px;
-        top: 0px;
-        
-    
-        background: #FFFFFF;
-}
-
 .logo {
-    /* WebStudio */
-    
    
-   
-
     font-family: 'Raleway';
     font-style: normal;
     font-weight: 700;
@@ -31,43 +15,64 @@
 }
 
 .topline {
-    
-    position: absolute;
-    width: 1600px;
-    height: 80px;
-    left: 0px;
-    top: 0px;
-    display: inline;
+  padding-left: 215px;  
+  margin-bottom: 100px; 
+  background: #FFFFFF;
+}
 
-    background: #FFFFFF;
+.topline-nav {
+
+    display: inline-block;
+    list-style-type: none;
 }
 
 .bluewords {
     color: #2196F3;
 }
 
-.head_nav {
-    font-family: 'Roboto';
-    font-style: normal;
-    font-weight: 500;
-    font-size: 14px;
-    line-height: 16px;
-    letter-spacing: 0.02em;
-    display: inline-block;
-    color: #212121;
+
+.whitewords {
+    color: #ffffff;
 }
 
 
 .menu-nav {
     
-  
+    display: inline-block;
+    list-style-type: none;
+    
+}
+
+.menu-nav-address {
+
+    display: inline-block;
+    list-style-type: none;
+    padding-left: 221px;
+}
+
+.menu-nav-footer {
+
+  padding-left: 0;
+  list-style-type: none;
+}
+
+.menu-nav-project {
+
+    display: inline-block;
+    list-style-type: none;
+    margin-left: 215px;
+}
+.menu-nav-last {
+
+    margin-bottom: 202px;
     list-style-type: none;
 }
 
-.menu-nav li{
-
-   display: inline;
+.item-nav {
+    display: inline;
+    list-style-type: none;
 }
+
 
 .menu-nav:first-child {
 
@@ -84,42 +89,57 @@
 
 .main {
 
-        position: absolute;
-        width: 1600px;
-        height: 600px;
-        left: 0px;
-        top: 80px;
     
-        background: #2F303A;
+    
+    height: 1600px;
+    left: 0px;
+    top: 80px;
+    
+    
         
 }
 
+.tittle-big{
+    padding-top: 200px;
+    align-items: center;
+    align-content: center;
+    
+}
 
+.tittle-small {
+    
+    padding-left: 50%;
+   
+
+}
 
 .main-top {
-        
-        font-family: 'Roboto';
-        font-style: normal;
-        font-weight: 900;
-        font-size: 44px;
-        line-height: 60px;
+    
+    
+    height: 600px;
+    
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 60px;
         /* or 136% */
     
-        text-align: center;
-        letter-spacing: 0.06em;
-        text-transform: uppercase;
-        margin: 200px 452px 280px 452px;
+    text-align: center;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
     
-        color: #FFFFFF
+    background-color: #212121;
+    color: #FFFFFF
 }
 
 .button {
-        position: absolute;
+        
         width: 200px;
         height: 50px;
         left: 700px;
         top: 430px;
-    
+        
         background: #2196F3;
         box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
         border-radius: 4px;
@@ -139,43 +159,130 @@
             color: #FFFFFF;
 }
 
+.button-portfolio {
+
+        
+        height: 38px;
+        left: 495px;
+        top: 174px;
+        border: none;
+        color: #212121;
+        /* shadow-middle */
+    
+        box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0), 0px 2px 2px rgba(0, 0, 0, 0.12);
+        border-radius: 4px;
+
+        margin-right: 8px;
+
+        background: #FFFFFF;
+}
+
+.button-portfolio:hover {
+    
+    background: #2196F3;
+
+}
+
 .main-benefits {
 
-   margin-bottom: ;
+    display: inline-block;
+    list-style-type: none;
+    margin-bottom: 94;
+    padding-left: 215px;
+}
+
+
     /*margin: 774px 215px 215px 1170px;*/
-}
 
-.main-benefits-nav li {
-
-    display: inline;
-  
-}
-.h2 {
-
-   
-}
 
 .main-our-work {
 
-    margin-top: 94px;
-    position: absolute;
-    width: 1170px;
-    height: 386px;
+    margin-bottom: 94;
+    padding-left: 215px;
     
     top: 969px;
     background: #E5E5E5;
 }
 
 .main-our-team {
-
-    margin-top: 94px;
+    padding-left: 215px;
+    padding-right: 215px;
+    margin-bottom: 114px;
+    align-items: center;
 }
 
-.footer1 {
+.main-our-projects {
+    margin-left: 215px;
+    margin-right: 215px;
+}
+
+.footer {
     
-    margin-top: 2097px;
-    
-    
+   
+    padding-left: 215px;
+    height: 252px;
+    left: 0px;
+    top: 2097px;
 
     background: #2F303A;
+}
+
+.item {
+
+    display: inline;
+    list-style-type: none;
+   
+}
+
+.item-project {
+    
+    margin-left: 30px;
+    display: inline-block;
+    list-style-type: none;
+}
+
+.item-benefits {
+
+    width: 270px;
+    height: 75px;
+    left: 815px;
+    top: 800px;
+    display: inline-block;
+    list-style-type: none;
+    border: 30px;
+    
+}
+
+.item-work {
+
+    width: 370px;
+    height: 294px;
+    left: 1015px;
+    top: 1061px;
+    display: inline-block;
+    list-style-type: none;
+
+}
+
+.filters-main {
+
+    padding-top: 94px;
+    
+    display: inline;
+    list-style-type: none;
+}
+
+.filters-main-nav {
+
+    
+    display: inline;
+    margin-bottom: 56px;
+    list-style-type: none;
+}
+
+.filters-list {
+
+    
+    margin-left: 38%;
+    
 }
