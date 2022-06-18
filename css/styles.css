@@ -88,9 +88,10 @@
     display: inline;
     list-style-type: none;
     margin-left: 50px;
+    color: #212121;
 }
 
-.item-nav, a:hover {
+.item-nav a:hover {
     text-decoration: underline;
     color: #2196F3;
 }
@@ -339,3 +340,4 @@
 
     color: rgba(255, 255, 255, 0.6);
 }
+
