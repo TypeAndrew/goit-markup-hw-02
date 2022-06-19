@@ -34,20 +34,16 @@ body {
 }
 
 
-.tittle-item-project:hover, 
-.tittle-item-type:hover, 
-.button-portfolio:hover,
-.filters-list .item:first-child .button-portfolio:hover,
-.item-nav:hover,
-.button:hover,
-.contact:hover {
+
+p:hover, a:hover, h1:hover, h2:hover, h3:hover, button:hover {
 
     text-decoration: underline;
     text-decoration-color: var(--color-blue);
-    
+    border-bottom: 12px currentColor;
+ 
 } 
 
-.filters-list .item:first-child .button-portfolio {
+.filters-list .item-filter:first-child .button-portfolio {
 
     background: var(--color-blue);
     color: var(--color-white);
@@ -303,7 +299,7 @@ body {
     color: rgba(255, 255, 255, 0.6);
 }
 
-.item {
+.item-filter {
 
     display: inline;
     list-style-type: none;
@@ -407,3 +403,27 @@ body {
     
 }
 
+.item-worker-name {
+
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.19;
+    /* identical to box height */
+
+    text-align: center;
+    letter-spacing: 0.03em;
+}
+
+.item-worker-type {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.19;
+    /* identical to box height */
+
+    text-align: center;
+    letter-spacing: 0.03em;
+}
