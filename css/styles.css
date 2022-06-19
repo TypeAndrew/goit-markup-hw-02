@@ -23,12 +23,13 @@ body {
     color: var(--color-blue);
 }
 
-.page {
+.page  {
     text-decoration: none;
     color: var(--color-dark);
 }
 
 .contact {
+    text-decoration: none;
     color: var(--color-brown);
 }
 
@@ -37,7 +38,9 @@ body {
 .tittle-item-type:hover, 
 .button-portfolio:hover,
 .filters-list .item:first-child .button-portfolio:hover,
-.button:hover {
+.item-nav:hover,
+.button:hover,
+.contact:hover {
 
     text-decoration: underline;
     text-decoration-color: var(--color-blue);
