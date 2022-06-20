@@ -35,13 +35,21 @@ body {
 
 
 
-p:hover, a:hover, h1:hover, h2:hover, h3:hover, button:hover {
+p:hover, a:hover, h1:hover, h2:hover, h3:hover, 
+button:hover, img:hover {
 
     text-decoration: underline;
     text-decoration-color: var(--color-blue);
     border-bottom: 12px currentColor;
  
 } 
+
+ .item-work:hover, .item-project:hover, .item-worker:hover { 
+
+    border: 5px solid var(--color-blue);
+   
+
+}
 
 .filters-list .item-filter:first-child .button-portfolio {
 
@@ -146,13 +154,10 @@ p:hover, a:hover, h1:hover, h2:hover, h3:hover, button:hover {
 }
 
 
-
 .menu-nav .menu-nav-address> .item-nav {
 
     margin-left: 50px;
 }
-
-
 
 .main {
 
@@ -269,9 +274,12 @@ p:hover, a:hover, h1:hover, h2:hover, h3:hover, button:hover {
 .main-our-team {
     padding-left: 215px;
     padding-right: 215px;
-   /* margin-bottom: 214px;*/
+    padding-top: 94px;
+    padding-bottom: 94px;
+    
     align-items: center;
     background: var(--color-grey);
+
 }
 
 .main-our-team li {
@@ -292,8 +300,6 @@ p:hover, a:hover, h1:hover, h2:hover, h3:hover, button:hover {
 }
 .item-footer {
 
-    
-   
     font-style: normal;
     font-weight: 400;
     line-height: 1.71;/*24px;
@@ -315,18 +321,18 @@ p:hover, a:hover, h1:hover, h2:hover, h3:hover, button:hover {
     margin-top: 30px;
     display: inline-block;
     list-style-type: none;
-    width: 370px; 
-    height: 294px;
-    
-    font-style: normal;
-    font-weight: 700;
-    font-size: 18px;
-    line-height: 2;/*36px;
-    /* identical to box height, or 200% */
+  
     
     letter-spacing: 0.06em;
     
     color: #212121;
+    width: 370px;
+    height: 404px;
+    left: 215px;
+    top: 1130px;
+    
+    background: #FFFFFF;
+    border: 1px solid #EEEEEE;
 }
 
 .tittle-item-project {
@@ -348,6 +354,7 @@ p:hover, a:hover, h1:hover, h2:hover, h3:hover, button:hover {
   font-weight: 400;  
   line-height: 1.88;
 }
+
 .item-benefits {
 
     width: 270px;
@@ -358,6 +365,17 @@ p:hover, a:hover, h1:hover, h2:hover, h3:hover, button:hover {
     list-style-type: none;
     border: 30px;
     margin-left: 30px;
+}
+
+.item-worker {
+
+   
+    display: inline-block;
+    list-style-type: none;
+    border: 30px;
+    margin-left: 30px;
+
+    box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
 }
 
 .item-work {
