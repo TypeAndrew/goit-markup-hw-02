@@ -183,6 +183,16 @@ button:hover, img:hover {
     padding-left: 215px;
     padding-right: 215px;
     text-align: center;
+    text-align: center;
+    padding-bottom: 50px;
+    
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 42px;
+    text-align: center;
+    letter-spacing: 0.03em;
 }
 
 .main-top {
