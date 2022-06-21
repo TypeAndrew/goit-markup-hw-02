@@ -8,6 +8,8 @@
     --color-brown: #757575;
 }
 
+
+
 body {
    
     
@@ -91,26 +93,11 @@ a:hover {
 }
 
 
-
-
-.menu-nav {
-
- text-decoration: solid;
-  list-style-type: none;
-}
-
 .menu-nav-project {
 
-    
-    list-style-type: none;
- 
     display: inline-flexbox;
 }
-.menu-nav-last {
 
-   
-    list-style-type: none;
-}
 
 .item-nav {
     
@@ -218,12 +205,8 @@ a:hover {
     background: var(--color-work);
 }
 
-.item-worker-name {
-
-}
-
-.item-worker-type {
-
+.item-work {
+    list-style-type: none;
 }
 
 .main-our-team {
@@ -295,7 +278,7 @@ a:hover {
 }
 
 .item-benefits {
-
+    list-style-type: none;
     line-height: 24px;
     color: var(--color-brown);
 }
@@ -309,7 +292,7 @@ a:hover {
 }
 
 .item-worker {
-
+   list-style-type: none;
    box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
 }
 
