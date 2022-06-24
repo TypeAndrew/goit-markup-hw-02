@@ -12,18 +12,16 @@
 
 body {
    
-    
     font-family: 'Roboto', sans-serif;
-    font-weight: 400;
     font-size: 14px;
     letter-spacing: 0.03em;
     color: var(--color-text);
     background: var(--color-work);
-    text-decoration: none;
+    
 }
 
 
-.current {
+.current-page {
     text-decoration: none;
     color: var(--color-blue);
 }
@@ -34,6 +32,7 @@ body {
 }
 
 .contact {
+    
     text-decoration: none;
     color: var(--color-brown);
 }
@@ -42,9 +41,7 @@ body {
 a:hover {
 
     text-decoration: none;
-    color: var(--color-blue);
-   
- 
+     
 } 
 
 .logo {
@@ -55,41 +52,39 @@ a:hover {
     font-size: 26px;
     line-height: 1.19;/*31px*/;
     /* identical to box height */
-    text-decoration: underline inherit;
+    text-decoration: none;
     letter-spacing: 0.03em;
 
     color: var(--color-dark);
    
 }
 
-.topline {
-   
- 
-  background: var(--color-white);
- 
+.logo:hover {
+   text-decoration-line: underline;
+   text-decoration-color: var(--color-blue); 
 }
 
-.topline-nav {
-
-    font-family: 'Roboto';
-    font-style: normal;
-    font-weight: 500;
-    font-size: 14px;
-    line-height: 1.19;
-    letter-spacing: 0.02em;
-    
-    color: #212121;
-    
+.topline {
+   
+  background: var(--color-white);
+ 
 }
 
 
 .bluewords {
     color: var(--color-blue);
+    text-decoration-color: none;
+}
+
+.blackwords {
+    color: var(--color-dark)
+    text-decoration-color: none;
 }
 
 
 .whitewords {
     color: var(--color-white);
+    text-decoration-color: none;
 }
 
 
@@ -99,11 +94,21 @@ a:hover {
 }
 
 
+
 .item-nav {
     
     list-style-type: none;
-    color: var(--color-dark);
-    
+    font-weight: 500;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+}
+
+.contact:hover, .current-page:hover, .page:hover {
+
+    color: var(--color-blue);
+    text-decoration: underline;
+    text-decoration-line: underline;
+    text-decoration-color: var(--color-blue);
 }
 
 
@@ -117,7 +122,7 @@ a:hover {
     font-size: 44px;
     line-height: 1.36;
     /*60px;
-        /* or 136% */
+    /* or 136% */
 
     text-align: center;
     letter-spacing: 0.06em;
@@ -128,14 +133,11 @@ a:hover {
 
 .tittle-small {
     
-    
-   
-    
     font-family: 'Roboto';
     font-style: normal;
     font-weight: 700;
     font-size: 36px;
-    line-height: 42px;
+    line-height: 1.17;
     text-align: center;
     letter-spacing: 0.03em;
 }
@@ -148,12 +150,7 @@ a:hover {
 
 .button {
         
-    width: 200px;
-    height: 50px;
-    left: 700px;
-    top: 430px;
-    
-    background: var(--color-blue);
+   background: var(--color-blue);
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
     border-radius: 4px;
 
@@ -163,7 +160,6 @@ a:hover {
     line-height: 1.88;/*30px;
     /* identical to box height, or 188% */
     
-        
     align-items: center;
     text-align: center;
     letter-spacing: 0.06em;
@@ -173,16 +169,14 @@ a:hover {
 
 .button-portfolio {
 
-        
- 
     font-weight: 500;
     font-size: 16px;
-    line-height: 1.626;
+    line-height: 1.6;
     /* identical to box height, or 162% */
     
     text-align: center;
     letter-spacing: 0.03em;
-    color: #212121;
+    color: var(--color-text);
     /* shadow-middle */
 
     box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0), 0px 2px 2px rgba(0, 0, 0, 0.12);
@@ -191,6 +185,10 @@ a:hover {
     margin-right: 8px;
 
     background: var(--color-white);
+}
+
+.button-portfolio:focus {
+    border-radius: 0px;
 }
 
 .button-portfolio:hover {
@@ -223,7 +221,6 @@ a:hover {
 
 .footer {
     
-    
     font-style: normal;
     line-height: 1.19;
     
@@ -232,8 +229,6 @@ a:hover {
 }
 .item-footer {
 
-   
-    
     line-height: 1.71;
     text-decoration: none;
     color: rgba(255, 255, 255, 0.6);
@@ -242,7 +237,6 @@ a:hover {
 
 
 .item-project {
-    
     
     letter-spacing: 0.06em;
     
@@ -279,11 +273,11 @@ a:hover {
 
 .item-benefits {
     list-style-type: none;
-    line-height: 24px;
     color: var(--color-brown);
 }
 
 .item-benefits-tittle {
+    font-size: 14px;
     font-style: normal;
     font-weight: 700;
     line-height: 1.92;
@@ -333,4 +327,11 @@ a:hover {
 
     text-align: center;
     letter-spacing: 0.03em;
+    color: var(--color-brown); 
+}
+
+.filters-main {
+
+background: var(--color-white);
+
 }
